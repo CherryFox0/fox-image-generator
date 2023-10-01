@@ -1,0 +1,21 @@
+@mixin flexbox($justify, $align) {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin styled-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}

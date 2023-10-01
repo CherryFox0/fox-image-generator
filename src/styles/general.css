@@ -1,0 +1,16 @@
+@import "fonts.css";
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-backface-visibility: hidden;
+}
+
+body, html {
+  background: linear-gradient(90deg, hsl(259, 84%, 78%) 0%, hsl(206, 67%, 75%) 100%);
+  background: -moz-linear-gradient(90deg, hsl(259, 84%, 78%) 0%, hsl(206, 67%, 75%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(259, 84%, 78%) 0%, hsl(206, 67%, 75%) 100%);
+}
+
+/*# sourceMappingURL=general.css.map */
